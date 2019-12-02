@@ -7,7 +7,7 @@ title: "CloudNative Days"
 CloudNative Days
 ================
 
-CloudNative Days will come in 2020!!
+CloudNative Days will come in 2020!! :smile:
 
 ## Upcoming events
 
