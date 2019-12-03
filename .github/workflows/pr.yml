@@ -38,3 +38,9 @@ jobs:
       env:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        
+    - name: Add PR Comment
+      uses: mshick/add-pr-comment@v1
+      with:
+        message: "test"
+        repo-token: ${{ secrets.REPO_TOKEN }}
